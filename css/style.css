@@ -1,5 +1,67 @@
+/*
+------------------------------
+RESET
+------------------------------
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*
+------------------------------
+MAIN
+------------------------------
+*/
+
+.container {
+    /* border: 2px solid black; */
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 700px;
+    height: 300px;
+    position: relative;
+}
+
+.up, .down {
+    background-color: #cccccc;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.up {
+    top: 10px;
+}
+
+.down {
+    bottom: 10px;
+}
+
+.item {
+    height: 100%;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

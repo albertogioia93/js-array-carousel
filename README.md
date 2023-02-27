@@ -20,3 +20,13 @@ Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di 
 
 COME SVOLGO QUESTO ESERCIZIO:
 
+- nell'index html creo un container che conterrà un altro div contenitore di immagini che scorrono
+- aggiungo dei div che saranno le frecce su e giù le quali applicherò degli eventi quando le si cliccheranno e su css gli darò position absolute
+- aggiungo un div che contiene le immagini per rendermi conto di come verranno visualizzate
+- ricreo quei div contenitori di immagini in javascript 
+- con il ciclo for faccio si che le immagini cambino ogni volta per tutte le immagini che ho precedentemente messo in un array
+- creo delle variabili e le associo ai div di index.html contenitori delle frecce su e giù
+- grazie ad addEventListener(click) creo la funzione la quale al click del mouse sull'elemento, si scatenano degli eventi
+- per gli eventi di cambio delle immagini uso delle condizioni
+
+
